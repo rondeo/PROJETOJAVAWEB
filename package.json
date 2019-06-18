@@ -1,0 +1,16 @@
+{
+  "name": "web-avancado",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "install": "^0.12.2",
+    "mongoose": "^5.6.0",
+    "mssql": "^5.1.0",
+    "npm": "^6.9.0",
+    "pug": "^2.0.4"
+  }
+}
