@@ -1,0 +1,11 @@
+block content
+  h1 Login
+  form(method='POST', action='/usuario/login')
+    #form-group
+      label Usuario:
+      input.form-control(name='usuario', type='text')
+    #form-group
+      label Senha:
+      input.form-control(name='senha', type='password')
+    br
+    input.btn.btn-primary(type='submit',name='Logar')

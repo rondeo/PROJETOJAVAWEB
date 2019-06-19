@@ -1,0 +1,14 @@
+block content
+  h1 Cadastro
+  form(method='POST', action='/usuario/cadastro')
+    #form-group
+      label Usuario:
+      input.form-control(name='usuario', type='text')
+    #form-group
+      label Senha:
+      input.form-control(name='senha', type='password')
+    #form-group
+    label Restricao:
+    input.form-control(name='restricao', type='text')
+    br
+    input.btn.btn-primary(type='submit',name='Enviar')
